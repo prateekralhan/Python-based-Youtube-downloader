@@ -21,3 +21,17 @@ A simple GUI built using Tkinter and pytube for downloading videos from YouTube.
 ![time_taken](https://user-images.githubusercontent.com/29462447/89121526-4e9d1600-d4dd-11ea-9e05-7f6ead2a5667.png)
 
 7. Navigate to the folder **"youtube_downloads"** and you will find your video there in **.mp4** format.
+
+********************************************************************
+### Using the exe.
+********************************************************************
+
+1. You can access the exe from [here.](https://drive.google.com/drive/folders/1IXVDs386gNSZpXsGYfieelWrJ-t5Bpha?usp=sharing)
+2. Download the entire folder and navigate to the **dist** folder.
+3. Inside the **python_youtube_downloader** folder, look for ***python_youtube_downloader.exe***. Double-click on it to run the application.
+
+4. Follow steps **4-7** mentioned in the **Usage** section.
+
+********************************************************************
+
+###### Raise an issue, if you want any form of help! :smile:
