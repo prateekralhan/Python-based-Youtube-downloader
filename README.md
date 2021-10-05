@@ -1,4 +1,4 @@
-# Python based Youtube downloader
+# Python based Youtube downloader [![Project Status: Active](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 A simple GUI built using Tkinter and pytube for downloading videos from YouTube.
 
 ***NOTE: This is meant to be used for educational purposes only.***
