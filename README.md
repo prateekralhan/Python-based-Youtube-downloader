@@ -1,4 +1,5 @@
-# Python based Youtube downloader [![Project Status: Active](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) [![](https://img.shields.io/badge/Prateek-Ralhan-brightgreen.svg?colorB=ff0000)](https://prateekralhan.github.io/)
+# Python-based YouTube Downloader
+[![Project Status: Active](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) [![](https://img.shields.io/badge/Prateek-Ralhan-brightgreen.svg?colorB=ff0000)](https://prateekralhan.github.io/)
 
 A simple GUI built using Tkinter and pytube for downloading videos from YouTube. 
 
@@ -6,7 +7,9 @@ A simple GUI built using Tkinter and pytube for downloading videos from YouTube.
 
 ## Dependencies:
 1. [pytube](https://pypi.org/project/pytube/)
-2. [Tkinter](https://docs.python.org/3/library/tkinter.html) ( It comes preinstalled with python3! :smile: ) 
+   > This is an external library and can be installed using the command `pip install pytube`.
+2. [Tkinter](https://docs.python.org/3/library/tkinter.html) 
+   > This library comes bundled with Python! :smile: 
 
 ## Usage:
 1. Clone this repository in your desired directory.
