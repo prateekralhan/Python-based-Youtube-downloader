@@ -1,5 +1,5 @@
 import os
-from pytube import YouTube
+from pytube import YouTube, exceptions
 from time import time
 from tkinter import *
 from customtkinter import *
@@ -15,19 +15,7 @@ else:
 
 # Download video function
 def download_video(entry_field):
-    if entry_field == "": # If the entry field is empty, do not download anything and show an error message
-        error = CTk()
-        error.title("Error")
-        error.resizable(False, False)
-        error.geometry("300x100")
-        error.grid_rowconfigure((0,1), weight=1)
-        error.grid_columnconfigure(0, weight=1)
-        error_label = CTkLabel(error, text="Please enter a valid YouTube link")
-        error_label.grid(row=0, column=0)
-        button = CTkButton(error, text="OK", command=error.destroy)
-        button.grid(row=1, column=0)
-        error.mainloop()
-    else:
+    try:
         start_time = time()
         download_location = "youtube_downloads/"
         YouTube(entry_field).streams.first().download(download_location)
@@ -47,6 +35,18 @@ def download_video(entry_field):
         button = CTkButton(popup, text="OK", command=popup.destroy)
         button.grid(row=1, column=0)
         popup.mainloop()
+    except exceptions.RegexMatchError: # If there's an invalid link or empty link, show an error message
+        error = CTk()
+        error.title("Error")
+        error.resizable(False, False)
+        error.geometry("300x100")
+        error.grid_rowconfigure((0,1), weight=1)
+        error.grid_columnconfigure(0, weight=1)
+        error_label = CTkLabel(error, text="Please enter a valid YouTube link")
+        error_label.grid(row=0, column=0)
+        button = CTkButton(error, text="OK", command=error.destroy)
+        button.grid(row=1, column=0)
+        error.mainloop()
 
 # Initializing the layout of the app
 master = CTk()
