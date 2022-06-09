@@ -45,7 +45,7 @@ A simple GUI built using Tkinter and pytube for downloading videos from YouTube.
 <p align="center">
 <img src="https://user-images.githubusercontent.com/29462447/89122798-fcadbd80-d4e7-11ea-9220-b817c9a89bbb.png">
 </p>
-4. Follow steps **4-7** mentioned in the **Usage** section.
+4. Follow steps *4-7* mentioned in the *Usage* section.
 
 <hr>
 
