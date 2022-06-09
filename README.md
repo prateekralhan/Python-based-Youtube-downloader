@@ -22,7 +22,7 @@ A simple GUI built using Tkinter and pytube for downloading videos from YouTube.
    <p align="center">
    <img src="https://user-images.githubusercontent.com/93064304/171878383-c3ddab52-ab37-4326-9eef-d7938fb3ba10.png">
    </p>
-   3. Enter the YouTube Video URL in the text box and click the **Download** button.
+   3. Enter the YouTube Video URL in the text box and click the ***Download*** button.
 
    4. It will take some time to download the video depending on the video size, video quality and your network connectivity. The downloader looks for the best possible video quality and downloads that for you. :wink:
 
@@ -30,7 +30,7 @@ A simple GUI built using Tkinter and pytube for downloading videos from YouTube.
    <p align="center">
    <img src="https://user-images.githubusercontent.com/93064304/171879529-986eac98-cdef-4f63-a1a6-c04adb4cc706.png">
    </p>
-   6. Navigate to the folder **youtube_downloads** and you will find your video there in **.mp4** format. Enjoy!
+   6. Navigate to the folder ***youtube_downloads*** and you will find your video there in **.mp4** format. Enjoy!
    
    <br>NOTE: If you enter an invalid link, the following error message will show up:
    <p align="center">
