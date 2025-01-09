@@ -1,5 +1,5 @@
 import os
-from pytube import YouTube, exceptions
+from pytubefix import YouTube, exceptions
 from time import time
 from tkinter import *
 from customtkinter import *

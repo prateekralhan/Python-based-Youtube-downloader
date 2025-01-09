@@ -6,8 +6,8 @@ A simple GUI built using Tkinter and pytube for downloading videos from YouTube.
 ***NOTE: This is meant to be used for educational purposes only.***
 
 ## Dependencies:
-1. [pytube](https://pypi.org/project/pytube/)
-   > This is an external library and can be installed using the command `pip install pytube`.
+1. [pytubefix]
+   > This is an external library and can be installed using the command `pip install pytubefix`.
 
 2. [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter)
    > This is an external library and can be installed using the command `pip install customtkinter`.
@@ -18,7 +18,7 @@ A simple GUI built using Tkinter and pytube for downloading videos from YouTube.
 ## Usage:
    1. Clone this repository in your desired directory.
 
-   2. Run the command: ```python python_youtube_downloader.py``` and a simple GUI will pop-up:
+   2. Run the command: ```pythonw.exe python_youtube_downloader.pyw``` and a simple GUI will pop-up:
    <p align="center">
    <img src="https://user-images.githubusercontent.com/93064304/171878383-c3ddab52-ab37-4326-9eef-d7938fb3ba10.png">
    </p>
